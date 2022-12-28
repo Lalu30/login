@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <!-- Create title -->
+
+    <div class="container" style="background-color: #2192ff">
+      <h2 style="color: #ffff; font-family: arial">Login Form</h2>
+    </div>
+
+    <form action="#">
+      <div class="imgcontainer">
+        <!-- Create Image -->
+        <img src="user.png" alt="avatar" class="avatar" />
+      </div>
+
+      <div class="container">
+        <!-- Create Input Username -->
+        <label for=""><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" />
+
+        <!-- Create Input Password -->
+        <label for=""><b>Password</b></label>
+        <input type="text" placeholder="Enter Password" name="psw" />
+
+        <!-- Create Button Login -->
+        <button type="submit">Login</button>
+        <input type="checkbox" checked="checked" /> Remember me
+      </div>
+
+      <div class="container" style="background-color: #f1f1f1">
+        <!-- Create Button Cancel -->
+        <button type="submit" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot<a href="#">password?</a></span>
+      </div>
+    </form>
+  </body>
+</html>
